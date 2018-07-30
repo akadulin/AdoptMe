@@ -14,8 +14,8 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
-  color: #7a7e89;
-  background: #f7f7f7;
+  color: #02469b;
+  background: #ddd892;
 }
 body.fh5co-overflow {
   overflow-x: auto;
@@ -37,7 +37,7 @@ body.fh5co-overflow {
 }
 
 a {
-  color: #f9ad81;
+  color: #ddd892;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -55,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-bottom: 30px;
+ 
 }
 
 .btn {
@@ -235,15 +236,15 @@ p {
 #fh5co-header #fh5co-logo a {
   font-family: "Roboto Slab", sans-serif;
   font-size: 30px;
-  color: #fff;
+  color: #02469b;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header #fh5co-logo a {
-    color: #000;
+    color: #02469b;
   }
 }
 #fh5co-header #fh5co-logo a span {
-  color: #f9ad81;
+  color: #ddd892;
 }
 #fh5co-header #fh5co-main-nav {
   float: right;
@@ -264,18 +265,18 @@ p {
 }
 #fh5co-header #fh5co-main-nav ul li a {
   font-family: "Roboto Slab", sans-serif;
-  color: rgba(255, 255, 255, 0.8);
+  color: #02469b;
   text-decoration: none;
   margin-left: 30px;
   border-bottom: 2px solid transparent;
 }
 #fh5co-header #fh5co-main-nav ul li a:hover {
   text-decoration: none;
-  color: #f9ad81;
+  color: #ddd892;
 }
 #fh5co-header #fh5co-main-nav ul li.active a {
-  color: #fff;
-  border-bottom: 2px solid #f9ad81;
+  color: #ddd892;
+  border-bottom: 2px solid #ddd892;
 }
 #fh5co-header.navbar-fixed-top {
   position: fixed !important;
@@ -305,10 +306,10 @@ p {
 }
 #fh5co-header.navbar-fixed-top #fh5co-main-nav ul li a:hover {
   text-decoration: none;
-  color: #f9ad81;
+  color: #ddd892;
 }
 #fh5co-header.navbar-fixed-top #fh5co-main-nav ul li.active a {
-  color: #f9ad81;
+  color: #ddd892;
   border-bottom: 2px solid transparent;
 }
 
@@ -317,13 +318,15 @@ p {
  */
 #fh5co-home {
   min-height: 700px;
-  background: #f03252 url(../images/loader.gif) no-repeat center center;
+  background: #02469b url(../images/loader.gif) no-repeat center center;
 }
 #fh5co-home .flexslider {
   border: none;
-  position: relative;
+  position: inherit;
   z-index: 1;
   margin-bottom: 0;
+  background-image: url(../images/backhome.jpg) no-repeat center;
+
 }
 #fh5co-home .flexslider .fh5co-text {
   position: absolute;
@@ -339,12 +342,12 @@ p {
   font-family: "Roboto Slab", sans-serif;
   font-size: 50px;
   font-weight: 400;
-  color: #f03252;
+  color: #02469b;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
-  border: 7px solid #fff;
+  border: 7px solid #ddd892;
   padding: 30px 50px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -363,7 +366,7 @@ p {
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #f03252;
+  color: #02469b;
   font-weight: 400;
   display: block;
   position: relative;
@@ -504,10 +507,10 @@ p {
 }
 
 #fh5co-about {
-  background: #444853;
+  background: #02469b;
 }
 #fh5co-about h2 {
-  color: #fff;
+  color: #ddd892;
 }
 #fh5co-about .fh5co-text {
   padding-left: 4em;
@@ -786,7 +789,7 @@ p {
   font-size: 11px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #41454f;
+  color: #02469b;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   opacity: .4;
@@ -829,7 +832,7 @@ p {
   *display: inline;
   width: 25px;
   height: 3px;
-  color: #535659;
+  color: #f03252;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
